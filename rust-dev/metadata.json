@@ -1,0 +1,23 @@
+{
+  "metadata_version": 1,
+  "bundle": "rust-dev",
+  "target": "b2p",
+  "display_name": "Rust Development Tools",
+  "description": "A bundle for Rust development tools.",
+  "kernels": ["linux", "windows-nt"],
+  "architectures": ["i686", "x86_64"],
+  "tags": ["cli", "programming", "programming-language"],
+  "categories": ["development"],
+  "aliases": ["rust-dev-tools", "rust-dev-environment"],
+  "authors": ["b2p Team", "Kaio HSG"],
+  "default": {
+    "gnu-linux": {
+      "flavor": "gcc",
+      "bundle_version": "1.0.0"
+    },
+    "windows": {
+      "flavor": "mingw-w64",
+      "bundle_version": "1.0.0"
+    }
+  }
+}

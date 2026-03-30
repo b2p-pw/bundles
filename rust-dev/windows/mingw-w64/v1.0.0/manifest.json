@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "b2p_requirement": ">=1.0.0",
+  "bundle": "rust-dev",
+  "target": "b2p",
+  "bundle_version": "1.0.0",
+  "flavor": "vanilla",
+  "environment": {
+    "kernel": "windows-nt"
+  },
+  "recipes": [
+    {
+      "package": "rust",
+      "recipe_version": "latest",
+      "package_version": "latest"
+    },
+    {
+      "package": "mingw-w64",
+      "recipe_version": "latest",
+      "package_version": "latest"
+    }
+  ]
+}
